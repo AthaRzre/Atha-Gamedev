@@ -1,0 +1,495 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e77e7bc011c9ed4097a516479a0ba3b, type: 3}
+  m_Name: DBKartunya
+  m_EditorClassIdentifier: 
+  KartuList:
+  - IDKartu: 1
+    JurKartu: AKN
+    NilaiKartu: 1
+    GbrKartu: {fileID: 21300000, guid: 5c4d2ef81b42feb4f9f9f4a9cf6823af, type: 3}
+  - IDKartu: 2
+    JurKartu: AKN
+    NilaiKartu: 2
+    GbrKartu: {fileID: 21300000, guid: e153595442bef3348a56e8af1eb3be02, type: 3}
+  - IDKartu: 3
+    JurKartu: AKN
+    NilaiKartu: 3
+    GbrKartu: {fileID: 21300000, guid: 432b3c488a433f44bada12f89d1bf2bd, type: 3}
+  - IDKartu: 4
+    JurKartu: AKN
+    NilaiKartu: 4
+    GbrKartu: {fileID: 21300000, guid: 90daeef28f73d974396eaeca706ac721, type: 3}
+  - IDKartu: 5
+    JurKartu: AKN
+    NilaiKartu: 5
+    GbrKartu: {fileID: 21300000, guid: 5f17113975454c74d8d8120d562ce3c9, type: 3}
+  - IDKartu: 6
+    JurKartu: AKN
+    NilaiKartu: 6
+    GbrKartu: {fileID: 21300000, guid: 1cab16f850e744e4cbbde7f91f7c65a2, type: 3}
+  - IDKartu: 7
+    JurKartu: AKN
+    NilaiKartu: 7
+    GbrKartu: {fileID: 21300000, guid: 0045c1a622bb79345bb94167783dd230, type: 3}
+  - IDKartu: 8
+    JurKartu: AKN
+    NilaiKartu: 8
+    GbrKartu: {fileID: 21300000, guid: 74007f005417fbf4da30eb1b28c7c3bf, type: 3}
+  - IDKartu: 9
+    JurKartu: AKN
+    NilaiKartu: 9
+    GbrKartu: {fileID: 21300000, guid: 81433fd846611b74183dac55d72eba96, type: 3}
+  - IDKartu: 10
+    JurKartu: AKN
+    NilaiKartu: 10
+    GbrKartu: {fileID: 21300000, guid: a354bd1f704f74143be9828e4a1b976d, type: 3}
+  - IDKartu: 11
+    JurKartu: AKN
+    NilaiKartu: 11
+    GbrKartu: {fileID: 21300000, guid: 948b184c80ea98040937ce6adb5ab3bf, type: 3}
+  - IDKartu: 12
+    JurKartu: AKN
+    NilaiKartu: 12
+    GbrKartu: {fileID: 21300000, guid: 75240ca7ed9b62743afc183b5288299e, type: 3}
+  - IDKartu: 13
+    JurKartu: AKN
+    NilaiKartu: 13
+    GbrKartu: {fileID: 21300000, guid: b809d22afecdba64fa2d3b31eaf83f96, type: 3}
+  - IDKartu: 14
+    JurKartu: AKN
+    NilaiKartu: 14
+    GbrKartu: {fileID: 21300000, guid: 7e266799cfeb54043abdec459ba1cc9e, type: 3}
+  - IDKartu: 15
+    JurKartu: AKN
+    NilaiKartu: 15
+    GbrKartu: {fileID: 21300000, guid: 0be31a1757ccb404390741b2338c9d88, type: 3}
+  - IDKartu: 16
+    JurKartu: FAR
+    NilaiKartu: 1
+    GbrKartu: {fileID: 21300000, guid: e5be3b87c6d84c24ca6a97de7c8b36b0, type: 3}
+  - IDKartu: 17
+    JurKartu: FAR
+    NilaiKartu: 2
+    GbrKartu: {fileID: 21300000, guid: bc5aaa3eb7adeca43a238163cd2b5270, type: 3}
+  - IDKartu: 18
+    JurKartu: FAR
+    NilaiKartu: 3
+    GbrKartu: {fileID: 21300000, guid: 4bf51088433f934449258d526a6095bb, type: 3}
+  - IDKartu: 19
+    JurKartu: FAR
+    NilaiKartu: 4
+    GbrKartu: {fileID: 21300000, guid: 91cff6375d47bf74f9a84e89b7693970, type: 3}
+  - IDKartu: 20
+    JurKartu: FAR
+    NilaiKartu: 5
+    GbrKartu: {fileID: 21300000, guid: ce299b7b2d35bdd4988863e9dcfc263c, type: 3}
+  - IDKartu: 21
+    JurKartu: FAR
+    NilaiKartu: 6
+    GbrKartu: {fileID: 21300000, guid: 1a8a649628c03c542a1be440fef085a2, type: 3}
+  - IDKartu: 22
+    JurKartu: FAR
+    NilaiKartu: 7
+    GbrKartu: {fileID: 21300000, guid: 7011a8852083f394e87d427bd0184033, type: 3}
+  - IDKartu: 23
+    JurKartu: FAR
+    NilaiKartu: 8
+    GbrKartu: {fileID: 21300000, guid: 1c1100c3723cb394eb9c99d5c834a0a7, type: 3}
+  - IDKartu: 24
+    JurKartu: FAR
+    NilaiKartu: 9
+    GbrKartu: {fileID: 21300000, guid: a95bc40154dfd6049b789cfaea27113a, type: 3}
+  - IDKartu: 25
+    JurKartu: FAR
+    NilaiKartu: 10
+    GbrKartu: {fileID: 21300000, guid: ca568354d7731074d9cdbf0c50e1bf3a, type: 3}
+  - IDKartu: 26
+    JurKartu: FAR
+    NilaiKartu: 11
+    GbrKartu: {fileID: 21300000, guid: da8cffb4a6a8d1e4fbac497c25e45d4c, type: 3}
+  - IDKartu: 27
+    JurKartu: FAR
+    NilaiKartu: 12
+    GbrKartu: {fileID: 21300000, guid: 96c8878f10bebab4da512739bc9fe978, type: 3}
+  - IDKartu: 28
+    JurKartu: FAR
+    NilaiKartu: 13
+    GbrKartu: {fileID: 21300000, guid: 41d921722c9c6b74eb8684cc28a75706, type: 3}
+  - IDKartu: 29
+    JurKartu: FAR
+    NilaiKartu: 14
+    GbrKartu: {fileID: 21300000, guid: d1f230837d0d72d4989047edcfa83000, type: 3}
+  - IDKartu: 30
+    JurKartu: FAR
+    NilaiKartu: 15
+    GbrKartu: {fileID: 21300000, guid: 94ffab3d6998edc499a978628ff77561, type: 3}
+  - IDKartu: 31
+    JurKartu: Kuliner
+    NilaiKartu: 1
+    GbrKartu: {fileID: 21300000, guid: dd1899d0f0e82c146b6449d6b1ca6913, type: 3}
+  - IDKartu: 32
+    JurKartu: Kuliner
+    NilaiKartu: 2
+    GbrKartu: {fileID: 21300000, guid: e61169cf1091dba45b44454b63f2799a, type: 3}
+  - IDKartu: 33
+    JurKartu: Kuliner
+    NilaiKartu: 3
+    GbrKartu: {fileID: 21300000, guid: e4444842413a47f47bf81dd8503a8314, type: 3}
+  - IDKartu: 34
+    JurKartu: Kuliner
+    NilaiKartu: 4
+    GbrKartu: {fileID: 21300000, guid: 5832eedeeeb150e41b462a36baf582fa, type: 3}
+  - IDKartu: 35
+    JurKartu: Kuliner
+    NilaiKartu: 5
+    GbrKartu: {fileID: 21300000, guid: 5a25e425b83daa64c9a1ee1f99ba6fed, type: 3}
+  - IDKartu: 36
+    JurKartu: Kuliner
+    NilaiKartu: 6
+    GbrKartu: {fileID: 21300000, guid: 98ce26183d0a86243bf52dc779dfdaaa, type: 3}
+  - IDKartu: 37
+    JurKartu: Kuliner
+    NilaiKartu: 7
+    GbrKartu: {fileID: 21300000, guid: a527b261f0d4382438eb15fd46e7f8ea, type: 3}
+  - IDKartu: 38
+    JurKartu: Kuliner
+    NilaiKartu: 8
+    GbrKartu: {fileID: 21300000, guid: 1e73a7310173a254380b27e8bcb30736, type: 3}
+  - IDKartu: 39
+    JurKartu: Kuliner
+    NilaiKartu: 9
+    GbrKartu: {fileID: 21300000, guid: 021726a5e4b9fc94daa23336aab5091a, type: 3}
+  - IDKartu: 40
+    JurKartu: Kuliner
+    NilaiKartu: 10
+    GbrKartu: {fileID: 21300000, guid: 71f185ee4b1db6f4386aa77cdf4196d2, type: 3}
+  - IDKartu: 41
+    JurKartu: Kuliner
+    NilaiKartu: 11
+    GbrKartu: {fileID: 21300000, guid: e9ccba51faba7eb41a9dbe0867de437e, type: 3}
+  - IDKartu: 42
+    JurKartu: Kuliner
+    NilaiKartu: 12
+    GbrKartu: {fileID: 21300000, guid: b33407883262d3d4da6f071f8140b9ff, type: 3}
+  - IDKartu: 43
+    JurKartu: Kuliner
+    NilaiKartu: 13
+    GbrKartu: {fileID: 21300000, guid: 9554e3570994fc74a9a059214f2d1edf, type: 3}
+  - IDKartu: 44
+    JurKartu: Kuliner
+    NilaiKartu: 14
+    GbrKartu: {fileID: 21300000, guid: 59f4a63f56aa8ac42a260450a46fdece, type: 3}
+  - IDKartu: 45
+    JurKartu: Kuliner
+    NilaiKartu: 15
+    GbrKartu: {fileID: 21300000, guid: 8509914fb11748545b9a52f8dab0894b, type: 3}
+  - IDKartu: 46
+    JurKartu: RPL
+    NilaiKartu: 1
+    GbrKartu: {fileID: 21300000, guid: 98404a0db68fe214888ea50a79b6255c, type: 3}
+  - IDKartu: 47
+    JurKartu: RPL
+    NilaiKartu: 2
+    GbrKartu: {fileID: 21300000, guid: 618fe07af50b3604e97de4a416e5a4ba, type: 3}
+  - IDKartu: 48
+    JurKartu: RPL
+    NilaiKartu: 3
+    GbrKartu: {fileID: 21300000, guid: b4431e155032d0b478e819e60dfe1934, type: 3}
+  - IDKartu: 49
+    JurKartu: RPL
+    NilaiKartu: 4
+    GbrKartu: {fileID: 21300000, guid: bfe7516a2ed1fdb49959af171662c919, type: 3}
+  - IDKartu: 50
+    JurKartu: RPL
+    NilaiKartu: 5
+    GbrKartu: {fileID: 21300000, guid: 9081a733f68abf94eaca57a8c7916e0a, type: 3}
+  - IDKartu: 51
+    JurKartu: RPL
+    NilaiKartu: 6
+    GbrKartu: {fileID: 21300000, guid: 1d9e7185124dd3b4c82eb43e28f44122, type: 3}
+  - IDKartu: 52
+    JurKartu: RPL
+    NilaiKartu: 7
+    GbrKartu: {fileID: 21300000, guid: 333e329ad40445749b7afdd5c59dcb98, type: 3}
+  - IDKartu: 53
+    JurKartu: RPL
+    NilaiKartu: 8
+    GbrKartu: {fileID: 21300000, guid: 4de39560a4e204346b7079900ff6b068, type: 3}
+  - IDKartu: 54
+    JurKartu: RPL
+    NilaiKartu: 9
+    GbrKartu: {fileID: 21300000, guid: c6dcf56908021fe44b764110e5f30200, type: 3}
+  - IDKartu: 55
+    JurKartu: RPL
+    NilaiKartu: 10
+    GbrKartu: {fileID: 21300000, guid: 9cdf85f58f7cdad4d8c819d0db32634f, type: 3}
+  - IDKartu: 56
+    JurKartu: RPL
+    NilaiKartu: 11
+    GbrKartu: {fileID: 21300000, guid: beaf4172eef2f6040bdfc5d3391dff79, type: 3}
+  - IDKartu: 57
+    JurKartu: RPL
+    NilaiKartu: 12
+    GbrKartu: {fileID: 21300000, guid: a39015c3136a60f4f9a67026b8c86071, type: 3}
+  - IDKartu: 58
+    JurKartu: RPL
+    NilaiKartu: 13
+    GbrKartu: {fileID: 21300000, guid: ff96a124e14cdd8478a41fe51440e8e5, type: 3}
+  - IDKartu: 59
+    JurKartu: RPL
+    NilaiKartu: 14
+    GbrKartu: {fileID: 21300000, guid: 851f7cf7399ae4142bd99ab3e0e1edef, type: 3}
+  - IDKartu: 60
+    JurKartu: RPL
+    NilaiKartu: 15
+    GbrKartu: {fileID: 21300000, guid: a137b268029a57f43b47684b15f61de7, type: 3}
+  - IDKartu: 61
+    JurKartu: TKJ
+    NilaiKartu: 1
+    GbrKartu: {fileID: 21300000, guid: ec7891310e276b14bbf608314bf38b3a, type: 3}
+  - IDKartu: 62
+    JurKartu: TKJ
+    NilaiKartu: 2
+    GbrKartu: {fileID: 21300000, guid: e4d9a501d9609064e87d695141877d35, type: 3}
+  - IDKartu: 63
+    JurKartu: TKJ
+    NilaiKartu: 3
+    GbrKartu: {fileID: 21300000, guid: 7b8b293f69ff3cc439653a15648f3372, type: 3}
+  - IDKartu: 64
+    JurKartu: TKJ
+    NilaiKartu: 4
+    GbrKartu: {fileID: 21300000, guid: 183e4fdd0fc9a344fa074fd5721d6af2, type: 3}
+  - IDKartu: 65
+    JurKartu: TKJ
+    NilaiKartu: 5
+    GbrKartu: {fileID: 21300000, guid: 6e2cb49afe5651040a9c4bd3a674ae1f, type: 3}
+  - IDKartu: 66
+    JurKartu: TKJ
+    NilaiKartu: 6
+    GbrKartu: {fileID: 21300000, guid: 9253197e04e97e1498c73964fb626672, type: 3}
+  - IDKartu: 67
+    JurKartu: TKJ
+    NilaiKartu: 7
+    GbrKartu: {fileID: 21300000, guid: f0ce6b594b3b8a1458ba920b1f933f60, type: 3}
+  - IDKartu: 68
+    JurKartu: TKJ
+    NilaiKartu: 8
+    GbrKartu: {fileID: 21300000, guid: e9763f772713cc9498704245059d2b0a, type: 3}
+  - IDKartu: 69
+    JurKartu: TKJ
+    NilaiKartu: 9
+    GbrKartu: {fileID: 21300000, guid: 5ddeefc34542ab149b2cb2da4d8504d3, type: 3}
+  - IDKartu: 70
+    JurKartu: TKJ
+    NilaiKartu: 10
+    GbrKartu: {fileID: 21300000, guid: 480785845f4b2ab48a80cebc2421c0dc, type: 3}
+  - IDKartu: 71
+    JurKartu: TKJ
+    NilaiKartu: 11
+    GbrKartu: {fileID: 21300000, guid: 86725faf5817ccb40965ded2c5464505, type: 3}
+  - IDKartu: 72
+    JurKartu: TKJ
+    NilaiKartu: 12
+    GbrKartu: {fileID: 21300000, guid: 8e96f7464451c86408c341156441d6e0, type: 3}
+  - IDKartu: 73
+    JurKartu: TKJ
+    NilaiKartu: 13
+    GbrKartu: {fileID: 21300000, guid: d3b48e2527a8e904883f1fba21512a6e, type: 3}
+  - IDKartu: 74
+    JurKartu: TKJ
+    NilaiKartu: 14
+    GbrKartu: {fileID: 21300000, guid: 9ce19bba129b41a418a5884dfa1c4a06, type: 3}
+  - IDKartu: 75
+    JurKartu: TKJ
+    NilaiKartu: 15
+    GbrKartu: {fileID: 21300000, guid: 036f32937d84bdf42aec73c1145c2f47, type: 3}
+  - IDKartu: 76
+    JurKartu: TKR
+    NilaiKartu: 1
+    GbrKartu: {fileID: 21300000, guid: 6bdbac223564482449e26a1b38d8b9a8, type: 3}
+  - IDKartu: 77
+    JurKartu: TKR
+    NilaiKartu: 2
+    GbrKartu: {fileID: 21300000, guid: cb89fce59c352e54d92ba1c2336b1578, type: 3}
+  - IDKartu: 78
+    JurKartu: TKR
+    NilaiKartu: 3
+    GbrKartu: {fileID: 21300000, guid: c3a45383d9c216a44900337c7ea78688, type: 3}
+  - IDKartu: 79
+    JurKartu: TKR
+    NilaiKartu: 4
+    GbrKartu: {fileID: 21300000, guid: 878cc351178c9e54cb823a152aa77adc, type: 3}
+  - IDKartu: 80
+    JurKartu: TKR
+    NilaiKartu: 5
+    GbrKartu: {fileID: 21300000, guid: f877b70d06c238c4f922bbf04dcd7017, type: 3}
+  - IDKartu: 81
+    JurKartu: TKR
+    NilaiKartu: 6
+    GbrKartu: {fileID: 21300000, guid: c5b80ca19a59a34439f01104773fd178, type: 3}
+  - IDKartu: 82
+    JurKartu: TKR
+    NilaiKartu: 7
+    GbrKartu: {fileID: 21300000, guid: 224388a17511d314e9a144db10c05107, type: 3}
+  - IDKartu: 83
+    JurKartu: TKR
+    NilaiKartu: 8
+    GbrKartu: {fileID: 21300000, guid: c71d532bd9540b14c87b60f7fc4fb0cf, type: 3}
+  - IDKartu: 84
+    JurKartu: TKR
+    NilaiKartu: 9
+    GbrKartu: {fileID: 21300000, guid: c2a9b331b2798db4caee733c97e5de73, type: 3}
+  - IDKartu: 85
+    JurKartu: TKR
+    NilaiKartu: 10
+    GbrKartu: {fileID: 21300000, guid: f27f8768981e4e042b5acc539494ae1c, type: 3}
+  - IDKartu: 86
+    JurKartu: TKR
+    NilaiKartu: 11
+    GbrKartu: {fileID: 21300000, guid: 6e11e5b568a03114a955f731d0978456, type: 3}
+  - IDKartu: 87
+    JurKartu: TKR
+    NilaiKartu: 12
+    GbrKartu: {fileID: 21300000, guid: 3da36672230d1764dbca9f8dbec598d1, type: 3}
+  - IDKartu: 88
+    JurKartu: TKR
+    NilaiKartu: 13
+    GbrKartu: {fileID: 21300000, guid: a427f8260e6960a4da06a15bef10ff0d, type: 3}
+  - IDKartu: 89
+    JurKartu: TKR
+    NilaiKartu: 14
+    GbrKartu: {fileID: 21300000, guid: 546ea75b7b46d4a40aaaa6540dca3109, type: 3}
+  - IDKartu: 90
+    JurKartu: TKR
+    NilaiKartu: 15
+    GbrKartu: {fileID: 21300000, guid: 1c130ef2ff3a3ce4985a65bd3d48432a, type: 3}
+  - IDKartu: 91
+    JurKartu: TPM
+    NilaiKartu: 1
+    GbrKartu: {fileID: 21300000, guid: f6f7eeb32e16ba042886aeb6516c4338, type: 3}
+  - IDKartu: 92
+    JurKartu: TPM
+    NilaiKartu: 2
+    GbrKartu: {fileID: 21300000, guid: cce573cf44e734f4f952e0134b621796, type: 3}
+  - IDKartu: 93
+    JurKartu: TPM
+    NilaiKartu: 3
+    GbrKartu: {fileID: 21300000, guid: 2ab49e03c4322e34899efe37324294d4, type: 3}
+  - IDKartu: 94
+    JurKartu: TPM
+    NilaiKartu: 4
+    GbrKartu: {fileID: 21300000, guid: 9281063a71e14d84b9bea73ce23ee754, type: 3}
+  - IDKartu: 95
+    JurKartu: TPM
+    NilaiKartu: 5
+    GbrKartu: {fileID: 21300000, guid: 44bc611615a665247b346d4f2ed8fda6, type: 3}
+  - IDKartu: 96
+    JurKartu: TPM
+    NilaiKartu: 6
+    GbrKartu: {fileID: 21300000, guid: 9b59e1149d7e0b8439f8e60172aee3ce, type: 3}
+  - IDKartu: 97
+    JurKartu: TPM
+    NilaiKartu: 7
+    GbrKartu: {fileID: 21300000, guid: d9f12b6e13e5dee4b84118cf6c190d5a, type: 3}
+  - IDKartu: 98
+    JurKartu: TPM
+    NilaiKartu: 8
+    GbrKartu: {fileID: 21300000, guid: 579b40b163eb031439e5eff9301fa66b, type: 3}
+  - IDKartu: 99
+    JurKartu: TPM
+    NilaiKartu: 9
+    GbrKartu: {fileID: 21300000, guid: e921409ad6e1a314d98acf3bc44dd6c8, type: 3}
+  - IDKartu: 100
+    JurKartu: TPM
+    NilaiKartu: 10
+    GbrKartu: {fileID: 21300000, guid: 6e12614c03feabb409c78ea8b7008e01, type: 3}
+  - IDKartu: 101
+    JurKartu: TPM
+    NilaiKartu: 11
+    GbrKartu: {fileID: 21300000, guid: 73de5e70cb6357c4ea8fb137d6a5e8a1, type: 3}
+  - IDKartu: 102
+    JurKartu: TPM
+    NilaiKartu: 12
+    GbrKartu: {fileID: 21300000, guid: bcb2fbdfaaa63984f8b6f275e7e75b83, type: 3}
+  - IDKartu: 103
+    JurKartu: TPM
+    NilaiKartu: 13
+    GbrKartu: {fileID: 21300000, guid: 70b89685362bf494799e4970978f4675, type: 3}
+  - IDKartu: 104
+    JurKartu: TPM
+    NilaiKartu: 14
+    GbrKartu: {fileID: 21300000, guid: ef6c9d85aedb8b84d873926c6efd1a76, type: 3}
+  - IDKartu: 105
+    JurKartu: TPM
+    NilaiKartu: 15
+    GbrKartu: {fileID: 21300000, guid: ce07e753c468ed7429c4216a5ecb9081, type: 3}
+  - IDKartu: 106
+    JurKartu: TSM
+    NilaiKartu: 1
+    GbrKartu: {fileID: 21300000, guid: cec9b4a077b88994686f2bbeda29720d, type: 3}
+  - IDKartu: 107
+    JurKartu: TSM
+    NilaiKartu: 2
+    GbrKartu: {fileID: 21300000, guid: f3c999e394cee194389bcdff80bc032a, type: 3}
+  - IDKartu: 108
+    JurKartu: TSM
+    NilaiKartu: 3
+    GbrKartu: {fileID: 21300000, guid: bac9459467965a947a3c86ff951303ee, type: 3}
+  - IDKartu: 109
+    JurKartu: TSM
+    NilaiKartu: 4
+    GbrKartu: {fileID: 21300000, guid: d4477ec42248d7d449325885ee599880, type: 3}
+  - IDKartu: 110
+    JurKartu: TSM
+    NilaiKartu: 5
+    GbrKartu: {fileID: 21300000, guid: 517a468544b8be247aa0cb4be8b95d9f, type: 3}
+  - IDKartu: 111
+    JurKartu: TSM
+    NilaiKartu: 6
+    GbrKartu: {fileID: 21300000, guid: abafa34cd3de8bb4b81d21c55b5986db, type: 3}
+  - IDKartu: 112
+    JurKartu: TSM
+    NilaiKartu: 7
+    GbrKartu: {fileID: 21300000, guid: 14953af988773e648a4a749fccda5a01, type: 3}
+  - IDKartu: 113
+    JurKartu: TSM
+    NilaiKartu: 8
+    GbrKartu: {fileID: 21300000, guid: d711054ad96f42c44b2e240167e2b601, type: 3}
+  - IDKartu: 114
+    JurKartu: TSM
+    NilaiKartu: 9
+    GbrKartu: {fileID: 21300000, guid: 7c5a7f65132218a40aa0bbf3e513704a, type: 3}
+  - IDKartu: 115
+    JurKartu: TSM
+    NilaiKartu: 10
+    GbrKartu: {fileID: 21300000, guid: f0c77cc2240465640b4eb1d4c8ca6906, type: 3}
+  - IDKartu: 116
+    JurKartu: TSM
+    NilaiKartu: 11
+    GbrKartu: {fileID: 21300000, guid: efe3fbc58cbf24d40889ed437b53b81c, type: 3}
+  - IDKartu: 117
+    JurKartu: TSM
+    NilaiKartu: 12
+    GbrKartu: {fileID: 21300000, guid: 78e3b925aaddc314db9e74db6fffecb9, type: 3}
+  - IDKartu: 118
+    JurKartu: TSM
+    NilaiKartu: 13
+    GbrKartu: {fileID: 21300000, guid: 03fd8e0834758524e976ea6f42114cb7, type: 3}
+  - IDKartu: 119
+    JurKartu: TSM
+    NilaiKartu: 14
+    GbrKartu: {fileID: 21300000, guid: eb9442ff74d43434292455089e59611c, type: 3}
+  - IDKartu: 120
+    JurKartu: TSM
+    NilaiKartu: 15
+    GbrKartu: {fileID: 21300000, guid: 1b9d2ae059bc7234eb42c9314ff0e83a, type: 3}

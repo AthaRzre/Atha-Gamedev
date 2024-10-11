@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85d43c012702b334c94bbcc442ea2590, type: 3}
+  m_Name: DatabasePemain
+  m_EditorClassIdentifier: 
+  PlayerList:
+  - Nama: 1
+    Jurusan: AKN
+    JenisKelamin: P
+  - Nama: 2
+    Jurusan: TKJ
+    JenisKelamin: L
+  - Nama: 3
+    Jurusan: RPL
+    JenisKelamin: P
+  - Nama: 4
+    Jurusan: FAR
+    JenisKelamin: P
+  - Nama: 5
+    Jurusan: KL
+    JenisKelamin: L
+  - Nama: 6
+    Jurusan: TKR
+    JenisKelamin: L
+  - Nama: 8
+    Jurusan: TPM
+    JenisKelamin: L
